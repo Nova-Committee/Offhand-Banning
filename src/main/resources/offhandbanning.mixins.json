@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "cn.evole.mods.offhandbanning.mixin",
+  "minVersion": "0.8",
+  "refmap": "offhandbanning.refmap.json",
+  "mixins": [
+    "ContainerPlayerMixin",
+    "NetHandlerPlayServerMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
